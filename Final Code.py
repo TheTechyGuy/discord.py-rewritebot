@@ -258,12 +258,6 @@ async def ghelp(ctx):
     await ctx.send(content=None, embed=embeded)
 
 
-@client.command()
-async def standup(ctx):
-    embededed = discord.Embed(title="Glimmer", description="Standup Commands")
-    embededed.add_field(name="Glimmer Asks:", value="Hi, What Did You Acomplish Yesterday?")
-    gordon = str(input(await ctx.send(content=None, embed=embededed)))
-    print(gordon)
 
 
 
@@ -274,7 +268,7 @@ async def  trisanthfind(message):
 
 @client.command()
 async def usercount(ctx):
-    id = client.get_guild(725579167009210398)
+    id = client.get_guild('Server_ID')
     embededed = discord.Embed(title="Glimmer", description="Usercount")
     embededed.add_field(name="The Number Of Users In This Server Is:", value=f"""{id.member_count}""")
     embededed.add_field(name="Made By:", value="Triplayz")
