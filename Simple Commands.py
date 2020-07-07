@@ -43,4 +43,4 @@ async def eightball(ctx, *, question):
 
 
 
-client.run('NzI5NDg5NjYwMzc5OTIyNTc0.XwP-mQ.3mukMfzuQ71jm1Jgj4nVfXN-L1E')
+client.run('TOKEN')
